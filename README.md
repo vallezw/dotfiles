@@ -1,2 +1,2 @@
 # dotfiles
-My dotfiles using the gruvbox dark theme
+My dotfiles using mainly suckless utilities and the gruvbox dark theme 
