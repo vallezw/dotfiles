@@ -6,7 +6,7 @@ In this linux installation I try to stay as lightweight as possible and using ma
 
 ## What is included?
 - [dwm](https://dwm.suckless.org/) as the twm
-- [dmenu](https://tools.suckless.org/dmenu/) as searchbar
+- [dmenu](https://tools.suckless.org/dmenu/) as the searchbar
 - [st](https://st.suckless.org/) as the terminal
 - [dwmbar](https://github.com/thytom/dwmbar)
 
