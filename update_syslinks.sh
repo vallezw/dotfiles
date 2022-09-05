@@ -7,5 +7,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
     ln -s -f ~/dotfiles/.xinitrc ~/.xinitrc
 	ln -s -f ~/dotfiles/.bashrc ~/.bashrc
+	ln -s -f ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim 
 	echo Updated sys links successfullly
 fi
