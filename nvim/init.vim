@@ -13,5 +13,6 @@ call plug#begin()
 	Plug 'https://github.com/vim-airline/vim-airline'
 	Plug 'morhetz/gruvbox'
 	Plug 'preservim/nerdtree'
+	Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 
 call plug#end()
