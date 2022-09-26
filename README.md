@@ -21,6 +21,6 @@ Dependencies you should have installed:
 - dbus
 - the dependencies in the `suckless/dwm-bar/dep` fodler if you want to enable the status bar
 - vim-plug if you are using the neovim
--
-- ## Notes
+
+## Notes
 - To change the keymap currently use `setxkbmap de` or `setxkbmap us`. I will create a keybinding for that in the near future.
