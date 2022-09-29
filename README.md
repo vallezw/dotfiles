@@ -24,3 +24,18 @@ Dependencies you should have installed:
 
 ## Notes
 - To change the keymap currently use `setxkbmap de` or `setxkbmap us`. I will create a keybinding for that in the near future.
+
+
+## Provisioning
+This repository can be set up using [Ansible](https://github.com/ansible/ansible) and [vallezw/dotfiles-provision](https://github.com/vallezw/dotfiles-provision).
+
+The setup is as follows:
+```
+# install ansible to the system
+python -m pip install ansible
+# clone the repository
+git clone https://github.com/vallezw/dotfiles-provision.git
+cd dotfiles-provision
+# run the playbook
+ansible-playbook playbook.yml --ask-become-pass
+```
