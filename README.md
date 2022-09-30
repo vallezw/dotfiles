@@ -12,7 +12,7 @@ In this linux installation I try to stay as lightweight as possible and using ma
 - [neovim](https://github.com/neovim/neovim)
 
 ## Getting Started
-To get started you need a successfull Xorg installation and can then compile dwm, st and dmenu in the `suckless/` folder. afterwards you should link the `.xinitrc` file as well as the `.bashrc` file. For that you simply have to run the `update_syslinks.sh` script. 
+To get started you need a successfull Xorg installation and can then compile dwm, st and dmenu in the `suckless/` folder. afterwards you should link the `.xinitrc` file as well as the `.bashrc` file. For that you simply have to run the `update_syslinks.sh` script. As an alternative you can automatically set it up via ansible which is described below.
 
 ## Dependencies
 Dependencies you should have installed:
