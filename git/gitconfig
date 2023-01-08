@@ -15,5 +15,5 @@
 [commit]
         gpgsign = true
 
-[includeIf "gitdir:~/GitQuantco/"]
+[includeIf "gitdir:~/quantco/"]
   path = ~/dotfiles/git/quantco-config
