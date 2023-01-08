@@ -1,0 +1,19 @@
+[user]
+        email = vallezw@gmail.com
+        name = Valentin Zwerschke
+        signingkey = 4CB8C0D4E7A94D7BA6B43D1200D7286A6BCC6806
+[credential "https://github.com"]
+        helper =
+        helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+        helper =
+        helper = !/usr/bin/gh auth git-credential
+[init]
+        defaultBranch = main
+[core]
+        editor = nvim
+[commit]
+        gpgsign = true
+
+[includeIf "gitdir:~/GitQuantco/"]
+  path = ~/dotfiles/git/quantco-config
