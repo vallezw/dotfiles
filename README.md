@@ -23,7 +23,7 @@ Dependencies you should have installed:
 - vim-plug if you are using the neovim
 
 ## Notes
-- To change the keymap currently use `setxkbmap de` or `setxkbmap us`. I will create a keybinding for that in the near future.
+- To change the keymap currently use `setxkbmap de` or `setxkbmap us`. I will create a keybinding for that in the future.
 
 
 ## Provisioning
